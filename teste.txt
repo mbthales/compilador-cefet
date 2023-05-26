@@ -1,0 +1,3 @@
+var hello = "testando"
+var oi = maiusculo(hello)
+mostrar(maiusculo(hello))
