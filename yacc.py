@@ -26,6 +26,11 @@ def p_expression_function_call(p):
             p[0] = variables[p[3]].upper()
         else:
             p[0] = p[3].upper()
+    elif p[1] == 'minusculo':
+        if p[3] in variables:
+            p[0] = variables[p[3]].lower()
+        else:
+            p[0] = p[3].lower()
 
 def p_expressions(p):
     '''expressions : expression 

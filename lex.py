@@ -1,6 +1,6 @@
 import ply.lex as lex
 
-reserved_words = ['var', 'mostrar', 'maiusculo']
+reserved_words = ['var', 'mostrar', 'maiusculo', 'minusculo']
 
 tokens = (
     'ID',
