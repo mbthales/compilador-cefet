@@ -1,6 +1,6 @@
 import ply.lex as lex
 
-reserved_words = ['var', 'mostrar', 'maiusculo', 'minusculo']
+reserved_words = ['var', 'mostrar', 'maiusculo', 'minusculo', 'se', 'inicio', 'fim']
 
 tokens = (
     'ID',
@@ -13,7 +13,7 @@ t_TERM = r'"[a-zA-Z_][a-zA-Z_0-9]*"|\d+'
 t_ignore = ' \t'
 
 def t_SYMBOL(t):
-    r'[=, (, )]'
+    r'[=()><]|==|!='
     return t
 
 def t_VARIABLE_NAME(t):
