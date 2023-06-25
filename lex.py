@@ -33,14 +33,3 @@ def t_error(t):
     raise LexicalError(f"Lexical error: Illegal character '{t.value[0]}' at line {t.lexer.lineno}")
 
 lexer = lex.lex()
-
-# data = open('teste.txt', 'r')
-
-# lexer.input(data.read())
-
-# # Tokenize
-# while True:
-#     tok = lexer.token()
-#     if not tok:
-#         break      # No more input
-#     print(tok)

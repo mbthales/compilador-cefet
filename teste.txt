@@ -1,3 +1,0 @@
-var hello = "OLA"
-var oi = minusculo(hello)
-mostrar(oi)

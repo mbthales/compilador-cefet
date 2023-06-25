@@ -1,0 +1,8 @@
+var hello = "OLA"
+var oi = minusculo(hello)
+mostrar(oi)
+
+se 5 < 10
+   inicio
+      mostrar("HELLO")
+   fim
