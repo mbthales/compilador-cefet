@@ -103,6 +103,6 @@ def p_error(p):
     raise SyntaxError()
 
 parser = yacc.yacc(start='expressions')
-data = open('teste.txt', 'r')
+data = open('main.txt', 'r')
 
 parser.parse(data.read())
