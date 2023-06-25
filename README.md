@@ -33,7 +33,7 @@ Parsinho is a programming language in portuguese focused for those who are start
 
 - You can create a variable with `var`. Ex:
   - `var test = "hello"`
-- To create a string, use quotation marks and not apostrophes
+- To create a string, use quotation marks and not apostrophes.
 - You have the option to use three functions:
   - mostrar: show on terminal
   - maiusculo: transform the string to uppercase
@@ -82,5 +82,3 @@ If you're interested in contributing, please follow these steps:
 5. Commit your changes with a descriptive message.
 6. Push your changes to your forked repository.
 7. Open a pull request in this repository to submit your changes.
-
-Thank you for your contribution!
